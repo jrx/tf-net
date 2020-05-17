@@ -1,6 +1,6 @@
-# TFE on AWS
+# AWS VPC
 
-A set of Terraform and Ansible scripts that setup Terraform Enterprise.
+Setup a VPC.
 
 ## License
 
