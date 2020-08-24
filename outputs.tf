@@ -14,6 +14,10 @@ output "aws_region" {
   value = var.aws_region
 }
 
+output "aws_cidr" {
+  value = var.aws_cidr
+}
+
 output "aws_azs" {
   value = module.vpc.azs
 }
