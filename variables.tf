@@ -12,13 +12,13 @@ variable "owner" {
 
 variable "aws_region" {
   type    = string
-  default = "eu-central-1"
+  default = "eu-north-1"
 }
 
 variable "aws_azs" {
   type        = list
   description = "List of the availability zones to use."
-  default     = ["eu-central-1a", "eu-central-1b", "eu-central-1c"]
+  default     = ["eu-north-1a", "eu-north-1b", "eu-north-1c"]
 }
 
 variable "aws_cidr" {
