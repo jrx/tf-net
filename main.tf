@@ -9,7 +9,7 @@ terraform {
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "~> v2.0"
+  version = "~> v3.0"
 
   name                 = "${var.cluster_name}-vpc"
   cidr                 = var.aws_cidr

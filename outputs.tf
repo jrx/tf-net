@@ -21,3 +21,11 @@ output "aws_cidr" {
 output "aws_azs" {
   value = module.vpc.azs
 }
+
+output "aws_owner_id" {
+  value = module.vpc.vpc_owner_id
+}
+
+output "aws_arn" {
+  value = module.vpc.vpc_arn
+}

@@ -16,7 +16,7 @@ variable "aws_region" {
 }
 
 variable "aws_azs" {
-  type        = list
+  type        = list(any)
   description = "List of the availability zones to use."
   default     = ["eu-north-1a", "eu-north-1b", "eu-north-1c"]
 }
